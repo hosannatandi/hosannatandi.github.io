@@ -1,0 +1,11 @@
+@font-face{
+    src: url(powerpuff\ girls\ font.ttf);
+    font-family: Puff;
+}
+body {background-color: paleturquoise;}
+.wrapper {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 2em; padding: 12em;} 
+.card-body {background-color: #eb137f;}
+.card-text {font-family: Puff; font-size: x-large;}
+h1 {font-family: Puff;}
+h5 {font-family: Puff;}
+.list-group-item {background-color: rgb(250, 150, 183); font-family: Arial;}
