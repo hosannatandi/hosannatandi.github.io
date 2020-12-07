@@ -1,0 +1,82 @@
+/* body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+   /* height: 100%;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used 
+  .img1 { background-image: url("https://c.wallhere.com/photos/fc/61/walkway_clouds_sea_nature_landscape_Maldives_tropical_lamp-121563.jpg!d"); }
+  .img2 { background-image: url("https://www.freegreatpicture.com/files/photo105/52028-beach-scenery.jpg"); }
+  .img3 { background-image: url("https://i.pinimg.com/originals/8c/8a/78/8c8a78a639189f5368271939e1b936ec.jpg"); }
+  .img4 { background-image: url("https://www.scenicusa.com/-/media/scenic/global/touring/japan/destinations/st-japan-tokyo-mountfuji1.jpg?mw=1024&hash=28162993AC67762299B7B37A5A76C0ED094581DF"); }
+  .img5 { background-image: url("https://img4.goodfon.com/wallpaper/nbig/c/d5/gorod-sad-svet-ogni-noch-prud-vesna-iaponiia-sakury-tsvety.jpg"); }
+  
+  /* Position text in the middle of the page/image 
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color 
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  .test {
+      background-color: pink;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  } */
+  
+  
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+#playlist {
+    list-style: none;
+}
+#playlist li a {
+  color:white;
+  text-decoration: none;
+}
+#playlist .current-song a{
+  color: cornflowerblue;
+}
+
+.ghosting {font-family: Arial, Helvetica, sans-serif; display: flex; flex-direction: row-reverse; justify-content: center;
+           list-style: none; color: darkblue; font-size: 6em; font-weight: bold; letter-spacing: 10px;
+           filter: blur(0px); transition: 4s;
+}
+.ghosting:hover {
+  transform: rotateX(180deg) translateY(-200px);
+}
