@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://www.freegreatpicture.com/files/photo105/52028-beach-scenery.jpg");
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  align-items: flex-end;
+  justify-content: center;
+  
+}

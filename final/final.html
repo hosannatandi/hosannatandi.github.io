@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="final.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script src="final.js" defer></script>
+        
+    </head>
+    <style>
+      body{background-color:paleturquoise}
+      /*{
+        margin:0;
+        padding:0;
+      }*/
+       .slider{background-image: url("https://c.wallhere.com/photos/fc/61/walkway_clouds_sea_nature_landscape_Maldives_tropical_lamp-121563.jpg!d");
+        background-size: cover; height: 100vh;}
+    </style>
+    <body>
+        
+      <div class="slider">
+        <audio src="" controls id="audioPlayer"></audio>
+      <ul id="playlist">
+        <li class="current-song"><a href="rain.mp3">Rain Sounds</a></li>
+        <li><a href="buddhalounge.mp3">Buddha Lounge</a></li>
+        <li><a href="singingbowl.mp3">Singing Bowl</a></li>
+        <li><a href="bohobeautiful.mp3">Guided Meditation by Boho Beautiful</a></li>
+      </ul>    
+      <ul class="text1">
+        <li>e</li>
+        <li>v</li>
+        <li>o</li>
+        <li>l</li>
+      </ul>
+      <ul class="text2">
+        <li>f</li>
+        <li>l</li>
+        <li>e</li>
+        <li>s</li>
+        <li>r</li>
+        <li>u</li>
+        <li>o</li>
+        <li>y</li>
+      </ul>
+        <div class="flex-container">
+            <div><button id="button1"></button></div>
+            <div><button id="button2"></button></div>
+            <div><button id="button3"></button></div>
+            <div><button id="button4"></button></div>
+            <div><button id="button5"></button></div>
+        </div>
+    </div>
+    <script src="jquery.ripples-master/dist/jquery.ripples-min.js"></script>
+    </body> 
+</html>
