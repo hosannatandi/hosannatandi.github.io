@@ -1,11 +1,20 @@
 var button1 = document.getElementById("button1");
 var button2 = document.getElementById("button2");
-
+// this is a local resource // change it
 button1.onclick = function(){
-    location.href = "file:///Users/hosannatandi/Desktop/WebDev/hosannatandi.github.io/final/final.html";
+    location.href = "final.html";
 };
 button2.onclick = function(){
-    location.href = "file:///Users/hosannatandi/Desktop/WebDev/hosannatandi.github.io/final/final2.html";
+    location.href = "final2.html";
+};
+button3.onclick = function(){
+  location.href = "final3.html";
+};
+button4.onclick = function(){
+  location.href = "final4.html";
+};
+button5.onclick = function(){
+  location.href = "final5.html";
 };
 
 audioPlayer();

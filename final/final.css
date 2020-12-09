@@ -57,7 +57,7 @@
 .flex-container {
     display: flex;
     flex-direction: row;
-    height: 130px;
+    height: 100px;
     align-items: flex-end;
     justify-content: center;
     
@@ -89,3 +89,17 @@
 .text2:hover {
   transform: rotateX(180deg) translateY(-200px);
 }
+
+/*.stress {display: flex; justify-content: center; align-items: center; font-size: 3em;
+          z-index: 1; overflow: hidden;}
+.stress:before {content: ''; position: absolute; left: 40%; width: 50%; height: 10%;
+                background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+                animation: animate 5.5s linear forwards;}
+@keyframes animate{
+    0%
+    {left: 40%}
+    100%
+    {left: -20%}
+}
+.stress span {color: red;} */
+ h2 {display: flex; justify-content: center; align-items: center; -webkit-box-reflect: below 1px linear-gradient(transparent, Black) }
